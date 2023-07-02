@@ -48,9 +48,9 @@ In your sketchbook set the board type to DOIT ESP32 DEVKIT V1: Tool >> Board >> 
 
 ## Function prototypes
  
-         /*!
-	 * @brief Class constructor.
-         * @param stack - The stack level of the card, choosed with the jumpers
+	/*!
+ 	 * @brief Class constructor
+	 * @param stack - The stack level of the card, choosed with the jumpers
 	 */
 	SM_4REL4IN(uint8_t stack = 0);
  
