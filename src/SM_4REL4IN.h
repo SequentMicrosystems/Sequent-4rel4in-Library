@@ -2,9 +2,9 @@
  * @file SM_4REL4IN.h
  * 
  * Designed specifically to work with the Sequent Microsysatems 
- * Building Automation 8-Layer Stackable HAT for Raspberry Pi
+ * Four Relays four HV Inputs 8-Layer Stackable HAT for Raspberry Pi
  * 
- * ----> https://sequentmicrosystems.com/products/building-automation-8-layer-stackable-hat-v4-for-raspberry-pi
+ * ----> https://sequentmicrosystems.com/collections/all-io-cards/products/four-relays-four-inputs-for-raspberry-pi
  * 
  *   This card use I2C to communicate.
  *   
