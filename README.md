@@ -47,7 +47,13 @@ ESP32-Pi is a Raspberry Pi alternate solution which can control directly the Fou
 In your sketchbook set the board type to DOIT ESP32 DEVKIT V1: Tool >> Board >> ESP32 Arduino >> DOIT ESP32 DEVKIT V1
 
 ## Function prototypes
-
+ 
+         /*!
+	 * @brief Class constructor.
+         * @param stack - The stack level of the card, choosed with the jumpers
+	 */
+	SM_4REL4IN(uint8_t stack = 0);
+ 
 	/*!
 	 * @brief Check card presence
 	 * @return Returns true is successful
