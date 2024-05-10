@@ -38,12 +38,12 @@ bool SM_4REL4IN::writeRelay(uint8_t relay, bool val)
 	}
 	if (val)
 	{
-		if (OK == writeByte(REL4IN_I2C_MEM_RELAY_SET, relay))
+		if (0 == writeByte(REL4IN_I2C_MEM_RELAY_SET, relay))
 			return true;
 	}
 	else
 	{
-		if (OK == writeByte(REL4IN_I2C_MEM_RELAY_CLR, relay))
+		if (0 == writeByte(REL4IN_I2C_MEM_RELAY_CLR, relay))
 			return true;
 	}
 	return false;

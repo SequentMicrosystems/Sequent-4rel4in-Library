@@ -29,6 +29,8 @@
 #define REL4IN_PWM_IN_SCALE 100
 #define REL4IN_IN_FREQENCY_SIZE 2
 
+#define OK 0
+
 #define REL4IN_SLAVE_OWN_ADDRESS_BASE 0x0e
 
 enum
